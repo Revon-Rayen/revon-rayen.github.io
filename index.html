@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>This is a client facing website</h1>    
+            <button id="btn-get-all" class="btn btn-primary">Get All Pokemon</button>        
+            
+               
+            <input type="text" placeholder="Enter a pokemon name" class="form-control"/>
+            <button id="btn-get-one" class="btn btn-warning">Get Pokemon Details</button>
+        
+            <div id="results-container">
+                
+            </div>
+
+            <hr/>
+            <h1>Add a Pokemon</h1>
+            <form>                
+                <input type="text" placeholder="Enter a description" name="pokeDesc" class="form-control"/>
+                <input type="text" placeholder="Enter a pokemon name" name="pokeName" class="form-control"/>
+                <input type="text" placeholder="Enter a pokemon type" name="pokeType" class="form-control"/>
+                <input type="text" placeholder="Enter a pokedex id" name="pokedexId" class="form-control"/>            
+                <button id="btn-contribute" class="btn btn-danger">Contribute Pokemon</button>
+            </form>
+        </div>
+    </main>
+    <!-- client side javascript file -->
+    <!-- javascript will be executed by the browser in the browser -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
